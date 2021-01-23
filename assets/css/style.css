@@ -1,0 +1,89 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.bg-nav {
+    background-color: #373a3c;
+}
+
+.bg-footer {
+    background-color: #373a3c;
+    height: 100px;
+    padding: 35px;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.banner {
+    margin-top: 100px;
+
+}
+
+.banner-text {
+    font-weight: 700;
+
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #373a3c !important;
+    border-radius: 50% !important;
+}
+
+.recetas-text {
+    padding: 2px;
+    text-decoration: underline #373a3c;
+}
+
+.caja-newsletter {
+    background-color: #dc3545;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 400px;
+}
+
+.padding-newsletter {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.newsletter {
+    font-family: 'Lobster', cursive;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card-hiden {
+    display: none;
+}
+
+.card-alto {
+    height: 400px;
+}
+
+@media (max-width: 1119px) {
+    .banner-text h1 {
+        text-align: center;
+        font-size: 25px !important;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-text {
+        text-align: center;
+    }
+
+    .card-responsive {
+        display: flex;
+        justify-content: center;
+    }
+}
